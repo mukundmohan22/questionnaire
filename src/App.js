@@ -11,6 +11,8 @@ function App() {
     const questions = jsonData.questions.sort((a, b) => {
       if (a.id < b.id) {
         return -1;
+      } else {
+        return null;
       }
     });
     // axios
