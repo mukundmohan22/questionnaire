@@ -1,0 +1,38 @@
+.q-wrapper {
+  max-width: 950px;
+  border: 1px rgba($color: #2f2f2f, $alpha: 0.4) solid;
+  border-radius: 4px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  &-header {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  padding: 1rem;
+  &_question {
+    display: flex;
+    font-weight: 550;
+    color: rgba($color: #2f2f2f, $alpha: 0.8);
+  }
+  &_option {
+  }
+  &--dark {
+    background-color: rgba($color: #f4f4f4, $alpha: 1);
+  }
+}
+
+.que__error {
+  margin: 1em 0;
+  padding: 1em;
+  border: 1px solid #ed5565;
+  background-color: rgba($color: #fcdfe2, $alpha: 0.8);
+  border-radius: 4px;
+  color: #ed5565;
+}
